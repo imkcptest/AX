@@ -1,11 +1,11 @@
 #!/bin/bash
 
 rm -f web config.json
-wget -N https://raw.githubusercontent.com/imkcptest/AX/main/web
+wget -N https://raw.githubusercontent.com/imkcptest/test/main/web
 chmod +x ./web
 
 if [[ -z $id ]]; then
-    id="1eb6e917-774b-4a84-aff6-b058577c60a5"
+    id="f5199c2d-e1c0-492f-a33a-58f24ce21c04"
 fi
 
 cat <<EOF > ~/config.json
